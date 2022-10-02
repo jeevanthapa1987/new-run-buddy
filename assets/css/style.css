@@ -137,7 +137,7 @@
 
 /*what we do*/
 .intro{
-  text-align: center;
+  
 }
 .intro h2{
   
@@ -148,13 +148,14 @@
   width:80%;
   font-size:20px;
   margin:0 auto;
+  text-align: center;
 }
 
 /*what we do ends*/
 
 /*what you do*/
 .steps {
-  text-align: center;
+  
   background: #fce138;
 }
 .steps h2 {
@@ -184,7 +185,7 @@
 
 /* meet the trainers*/
 .trainers{
-  text-align: center;
+  
 }
 .trainer{
   width:900px;
@@ -203,13 +204,7 @@ float:left;
   float:left;
   padding:35px;
 }
-.text-left {
-  text-align: left;
-}
 
-.text-right {
-  text-align: right;
-}
 .trainer-bio h3{
   font-size: 32px;
   margin-bottom: 8px;
@@ -228,7 +223,7 @@ float:left;
 
 /*reach out*/
 .contact{
-  text-align: center;
+  
   background: #024e76;
 }
 .contact h2 {
@@ -270,21 +265,36 @@ section{
     padding: 60px;
     
   }
-  
+  /*section title*/
   .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
+   border-bottom: 3px solid;
+   padding-bottom: 20px;
+   text-align:center;
+   margin:0 auto 35px auto;
+   width:50%;
   }
  
- 
+  
   .primary-border {
     border-color: #fce138;
   }
   
   .secondary-border {
     border-color: #39a6b2;
+  }
+  /* SECTION TITLE STYLES END */
+
+
+  /* UTILITIES */
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  .flex-row {
+    display: flex;
   }
